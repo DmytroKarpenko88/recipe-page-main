@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import 'tailwindcss';
+
+/* @font-face {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url('/fonts/Oswald.woff2') format('woff2');
+} */
+
+@theme {
+  --font-young-serif: 'Young Serif', serif;
+  --font-outfit: 'Outfit', sans-serif;
+
+  --color-white: #ffffff;
+
+  --color-Stone-100: #f3e5d8; /* hsl(30, 54%, 90%) */
+  --color-Stone-150: #ede3de; /* hsl(30, 18%, 87%) */
+  --color-Stone-600: #5f574e; /* hsl(30, 10%, 34%) */
+  --color-Stone-900: #2b251e; /* hsl(24, 5%, 18%) */
+
+  --color-Brown-800: #854632; /* hsl(14, 45%, 36%) */
+
+  --color-Rose-800: #7b284f; /* hsl(332, 51%, 32%) */
+  --color-Rose-50: #fff7fb; /* hsl(330, 100%, 98%) */
+
+  /* --radius-card-radius: 10px; */
+  /* --radius-img-radius: 10px; */
+
+  /* --text-base: 16px;
+  --text-lg: 24px; */
+
+  --tracking-custom: 0.01em;
+
+  /* --leading-150: 1.5;
+
+  --spacing-300: 24px;
+  --spacing-150: 12px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
+
+  --shadow-card-shadow: 8px 8px 0 0 #000; */
+
+  --breakpoint-xs: 375px;
+  --breakpoint-xl: 1440px;
+}
